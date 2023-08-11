@@ -1,0 +1,83 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: blueviolet;
+    padding: 40px;
+    border-width: 12px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.topo input {
+    width: 300px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid aqua;
+    outline: none;
+    font-size: 16px;
+    background: #191818;
+    color: white;
+}
+
+.topo button {
+    width: 45px;
+    border-radius: 12px;
+    border: 1px solid aqua;
+    background: #191818;
+    color: white;
+    outline: none;
+}
+
+.topo button:hover {
+    background-color: #1f1e1e;
+    cursor: pointer;
+}
+
+.lista-tarefas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tarefas li {
+    padding: 10px;
+    background: #181918;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid aqua;
+}
+
+.btnacao {
+    border-radius: 20px;
+    border: 1px solid aqua;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #2b2a2a;
+    color: white;
+}
